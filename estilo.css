@@ -3,44 +3,53 @@
 	padding:0;
 }
 
-body{
-	background:rgba(255,255,255,1);
-	color:rgba(25,25,25,1);
-	font-family: 'Poppins', sans-serif;
-	font-weight:300;
+.parallax { 
+    /* The image used */
+    background:linear-gradient(to bottom right, #ffff4d, #ff3399);
+
+    /* Set a specific height */
+    height: 2000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-h1, h2, h3, h4{
-	font-family: 'Montserrat', sans-serif; 
+body{
+	color:rgba(255,255,255,1);
+	font-family: 'Raleway', sans-serif;
+	font-weight:400;
+}
+
+h1, h2, h3, h4, h5{
+	font-family: 'Lato', sans-serif;
 	font-weight:700; 
 }
 
 h1{
 	letter-spacing:0.1em;
-	color:rgba(255,255,255,0.9);
-	text-shadow: 1px 1px 0 #999;	
+	color: #ffff4d;	
 	text-align:center;
 }
 
 h2{
 	letter-spacing:0.02em; 
-	color:rgba(255,255,255,0.6); 
+	color:rgba(255,255,255); 
 	padding:0.2em 0; 
-	text-shadow: 1px 1px 0 #999;
 	text-align:center;		
 }
 
 h3{
 	letter-spacing:0.2em; 
-	color:rgba(0,0,0,.75); 
+	color:rgb(255,255,255); 
 	padding:2em 0 0.6em 0; 
-	text-shadow: 1px 1px 0 #ccc;
 	text-align:center;	
 }
 
-h4, h5, h6{
-	font-weight:left;
-	font-weight:600; 	
+#sub{
+	font-weight:700; 	
 }
 
 #contenido{width:98%; margin:1% auto;}
@@ -69,7 +78,7 @@ video{
 
 #somos{
 	width:100%;
-	background:rgb(250,250,250);
+	box-shadow: 0px 0px 0px 4px #fff;
 	margin-bottom:2%;
 	}
 
@@ -77,25 +86,24 @@ video{
 	width:46%;
 	padding:2%;
 	float:left;
-	background-color:red;
 	}
 
 .dupla a{
-	color:rgba(255,0,0,0.75);
+	color:#ffff4d;
 	text-decoration:none;
 	font-weight:700;
 }
 
 .dupla a:hover{
-	color:rgba(255,0,0,1);
+	color:#ff3399;
 	text-decoration:underline;
 }
 
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-color:rgba(241,230,210,1);
-	background-image:url('media/dupla-01.jpg');
+	box-shadow: 0px 0px 0px 4px #fff;
+	background-image:url('media/lore.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -111,8 +119,8 @@ video{
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-color:rgba(231,240,239,1);
-	background-image:url('media/dupla-02.jpg');
+	box-shadow: 0px 0px 0px 4px #fff;
+	background-image:url('media/pame.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
@@ -134,15 +142,13 @@ video{
 #portafolio{
 	width:100%;
 	padding-bottom:1%;
-	background:linear-gradient(to bottom right, #F2E6D4, #E7F0EF);
 }
 
 .item {
 	width:23%;
 	margin:1%;
-	color:#333;
-	background:white;
-	box-shadow:0 0 5px rgba(0,0,0,.1);
+	color:#fff;
+	box-shadow: 0px 0px 0px 4px #fff;
 }
 
 .item:hover{
@@ -193,7 +199,7 @@ footer p{
 	}
 
 footer hr{
-	border:2px solid #000;
+	border:2px solid #fff;
 	width:10%;
 	margin:2em auto 0 auto;
 	}

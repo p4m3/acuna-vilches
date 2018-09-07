@@ -3,28 +3,16 @@
 	padding:0;
 }
 
-.parallax { 
-    /* The image used */
-    background:linear-gradient(to bottom right, #ffff4d, #ff3399);
-
-    /* Set a specific height */
-    height: 2000px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 body{
+	background:linear-gradient(to bottom right, #ffff4d, #ff3399);
 	color:rgba(255,255,255,1);
 	font-family: 'Raleway', sans-serif;
-	font-weight:400;
+	font-weight:300;
 }
 
 h1, h2, h3, h4, h5{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-weight:700; 
 }
 
@@ -102,37 +90,36 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	box-shadow: 0px 0px 0px 4px #fff;
 	background-image:url('media/lore.jpg');
-	background-position:top right;
-	background-repeat:no-repeat;
-	background-size:auto 100%;
-}
-.primera h4{padding: 2% 40% 1% 2%;}
-
-.primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
-
-.primera p{padding: 2% 40% 2% 2%;}
-
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
-
-.segunda{
-	min-height:300px;
-	text-align:right;
-	box-shadow: 0px 0px 0px 4px #fff;
-	background-image:url('media/pame.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
 
-.segunda h4{padding: 2% 2% 1% 40%;}
+.primera h4{padding: 2% 1% 1% 42%;}
 
-.segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
+.primera h5{padding: 1% 1% 2% 42%; margin-bottom:5em; letter-spacing:0.1em;}
 
-.segunda p{padding: 2% 2% 2% 40%;}
+.primera p{padding: 2% 1% 2% 42%;}
 
-.segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
+.primera address{padding: 1% 2% 2% 42%; font-size:0.9em; font-style:normal;}
+
+.segunda{
+	min-height:300px;
+	text-align:right;
+	background-image:url('media/pame.jpg');
+	background-position:top right;
+	background-repeat:no-repeat;
+	background-size:auto 100%;
+}
+
+.segunda h4{padding: 2% 42% 1% 1%;}
+
+.segunda h5{padding: 1% 42% 2% 1%; margin-bottom:5em; letter-spacing:0.1em;}
+
+.segunda p{padding: 2% 42% 2% 1%;}
+
+.segunda address{padding: 2% 42% 2% 1%; font-size:0.9em; font-style:normal;}
 
 #somos hr{
 	clear:both;

@@ -73,14 +73,16 @@ video{
 
 #somos{
 	width:100%;
-	box-shadow: 0px 0px 0px 4px #fff;
 	margin-bottom:2%;
+
 	}
 
 .dupla{
 	width:46%;
 	padding:2%;
 	float:left;
+	outline:4px solid white;
+
 	}
 
 .dupla a{
@@ -97,36 +99,36 @@ video{
 .primera{
 	min-height:300px;
 	text-align:left;
-	background-image:url('media/lore.jpg');
+	background-image:url('media/lore.png');
 	background-position:top right;
 	background-repeat:no-repeat;
-	background-size:auto 100%;
+	background-size:contain;
 }
 
-.primera h4{padding: 2% 45% 1% 1%;}
+.primera h4{padding: 2% 40% 1% 1%;}
 
-.primera h5{padding: 1% 45% 2% 1%; margin-bottom:5em; letter-spacing:0.1em;}
+.primera h5{padding: 1% 40% 2% 1%; margin-bottom:5em; letter-spacing:0.1em;}
 
-.primera p{padding: 2% 45% 2% 1%;}
+.primera p{padding: 2% 40% 2% 1%;}
 
-.primera address{padding: 1% 45% 2% 1%; font-size:0.9em; font-style:normal;}
+.primera address{padding: 1% 40% 2% 1%; font-size:0.9em; font-style:normal;}
 
 .segunda{
 	min-height:300px;
 	text-align:right;
-	background-image:url('media/pame.jpg');
+	background-image:url('media/pame.png');
 	background-position:top left;
 	background-repeat:no-repeat;
-	background-size:auto 100%;
+	background-size:contain;
 }
 
-.segunda h4{padding: 2% 1% 1% 45%;}
+.segunda h4{padding: 2% 1% 1% 40%;}
 
-.segunda h5{padding: 1% 1% 2% 45%; margin-bottom:5em; letter-spacing:0.1em;}
+.segunda h5{padding: 1% 1% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
 
-.segunda p{padding: 2% 1% 2% 45%;}
+.segunda p{padding: 2% 1% 2% 40%;}
 
-.segunda address{padding: 2% 1% 2% 45%; font-size:0.9em; font-style:normal;}
+.segunda address{padding: 2% 1% 2% 40%; font-size:0.9em; font-style:normal;}
 
 #somos hr{
 	clear:both;
@@ -142,7 +144,7 @@ video{
 	width:23%;
 	margin:1%;
 	color:#fff;
-	box-shadow: 0px 0px 0px 4px #fff;
+	outline:4px solid white;
 }
 
 .item:hover{
@@ -161,7 +163,6 @@ video{
 }
 
 .item:hover figure img{
-	transform:scale(1.25);
 	filter: grayscale(0);	
 	transition:all ease-out 0.5s;
 }
